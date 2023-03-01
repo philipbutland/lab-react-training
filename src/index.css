@@ -18,17 +18,16 @@ code {
   height: 140px;
   margin-bottom: 10px;
   margin-left: 5px;
+  display: flex;
 }
 
 
 .IdText {
-  width: 88.5%;
   float: right;
   text-align: left;
 }
 
 .IdPhoto{
-  width: 8%;
   float: left;
   padding: 5px;
 }
@@ -44,8 +43,53 @@ code {
 
 .colouredBox{
   width: 400px;
-  height: 100px;
+  height: 200px;
   border-style: solid;
   border-color: black;
   border-width: 2px;
+  font-size: 18pt;
+  color: white;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.boxHolder{
+  margin: 50px auto 50px auto;
+  width: 50%;
+}
+
+.creditCard{
+  width: 400px;
+  height: 200px;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  margin-bottom: 50px;
+  border-radius: 25px;
+}
+
+.creditCardHolder{
+  display: flex;
+  justify-content: space-around;
+}
+
+.cardType{
+  text-align: right;
+  padding: 10px;
+  font-size: 18pt;
+  color: blue;
+  font-weight: bolder;
+}
+
+.cardNumber{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 24pt;
+  font-weight: bolder;
+}
+
+.cardExpiry{
+  margin: 0 0 0 20px;
+  font-size: 14pt;
+  text-align: left;
 }
